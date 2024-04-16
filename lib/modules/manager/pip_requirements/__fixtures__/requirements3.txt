@@ -3,3 +3,4 @@ distribute==0.6.27 # renovate: ignore
 dj-database-url==0.2 # pyup: nothing
 psycopg2==2.4.5 # renovate:
 wsgiref==0.1.2 # something else
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
