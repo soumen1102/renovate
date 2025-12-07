@@ -1,4 +1,4 @@
-Django==3.2.18 \
+Django==4.2.27 \
     --hash=sha256:9f7ca04c6dbcf08b794f2ea5283c60156a37ebf2b8316d1027f594f34ff61101 \
     --hash=sha256:a29aac46a686cade6da87ce7e7287d5d53cddabc41d777c6230a583c36244a18
 bgg==0.22.1 \
@@ -6,3 +6,4 @@ bgg==0.22.1 \
     --hash=sha256:aaa53aea1cecb8a6e1288d6bfe52a51408a264a97d5c865c38b34ae16c9bff88
 html2text==2016.1.8 \
     --hash=sha256:088046f9b126761ff7e3380064d4792279766abaa5722d0dd765d011cf0bb079
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
