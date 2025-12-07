@@ -1,5 +1,6 @@
-Django==3.2.18 # renovate
+Django==4.2.27 # renovate
 distribute==0.6.27 # renovate: ignore
 dj-database-url==0.2 # pyup: nothing
 psycopg2==2.4.5 # renovate:
 wsgiref==0.1.2 # something else
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
